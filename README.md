@@ -1,3 +1,26 @@
+## performance_test_fixture (rolling) - 0.2.0-1
+
+The packages in the `performance_test_fixture` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling performance_test_fixture` on `Thu, 27 Apr 2023 08:18:42 -0000`
+
+The `performance_test_fixture` package was released.
+
+Version of package(s) in repository `performance_test_fixture`:
+
+- upstream repository: https://github.com/ros2/performance_test_fixture.git
+- release repository: https://github.com/ros2-gbp/performance_test_fixture-release.git
+- rosdistro version: `0.1.1-1`
+- old version: `0.1.1-1`
+- new version: `0.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## performance_test_fixture (rolling) - 0.1.1-1
 
 The packages in the `performance_test_fixture` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling performance_test_fixture` on `Tue, 11 Apr 2023 15:48:42 -0000`
