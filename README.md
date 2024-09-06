@@ -1,3 +1,26 @@
+## performance_test_fixture (jazzy) - 0.2.1-2
+
+The packages in the `performance_test_fixture` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --track jazzy --rosdistro jazzy performance_test_fixture` on `Fri, 06 Sep 2024 19:29:04 -0000`
+
+The `performance_test_fixture` package was released.
+
+Version of package(s) in repository `performance_test_fixture`:
+
+- upstream repository: https://github.com/ros2/performance_test_fixture.git
+- release repository: https://github.com/ros2-gbp/performance_test_fixture-release.git
+- rosdistro version: `0.2.0-3`
+- old version: `0.2.1-1`
+- new version: `0.2.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## performance_test_fixture (jazzy) - 0.2.1-1
 
 The packages in the `performance_test_fixture` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --track jazzy --rosdistro jazzy performance_test_fixture` on `Fri, 06 Sep 2024 19:26:54 -0000`
