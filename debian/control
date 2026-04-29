@@ -1,0 +1,12 @@
+Source: ros-lyrical-performance-test-fixture
+Section: misc
+Priority: optional
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-export-dependencies, ros-lyrical-ament-cmake-export-targets, ros-lyrical-ament-cmake-google-benchmark <!nocheck>, ros-lyrical-ament-cmake-test, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-google-benchmark-vendor, ros-lyrical-osrf-testing-tools-cpp, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/performance_test_fixture/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-performance-test-fixture
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-cmake-google-benchmark, ros-lyrical-google-benchmark-vendor, ros-lyrical-osrf-testing-tools-cpp, ros-lyrical-ros-workspace
+Description: Test fixture and CMake macro for using osrf_testing_tools_cpp with Google Benchmark
