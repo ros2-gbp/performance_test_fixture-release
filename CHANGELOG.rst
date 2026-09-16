@@ -2,27 +2,33 @@
 Changelog for package performance_test_fixture
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.2 (2026-06-02)
+0.5.1 (2026-09-16)
 ------------------
-* Remove CODEOWNERS and mirror-rolling-to-main workflow. (`#28 <https://github.com/ros2/performance_test_fixture/issues/28>`_) (`#29 <https://github.com/ros2/performance_test_fixture/issues/29>`_)
-  They are both outdated and both no longer serving their
-  intended purpose.
-  (cherry picked from commit 3e0177bcd49ddc898f371ff6ea5b76d7d5ded46d)
-  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
-* Contributors: mergify[bot]
+* Include what you use (`#37 <https://github.com/ros2/performance_test_fixture/issues/37>`_)
+* use C++ 20 in default. (`#36 <https://github.com/ros2/performance_test_fixture/issues/36>`_)
+* Fix deprecated benchmark::internal::Benchmark warnings in performance tests (`#34 <https://github.com/ros2/performance_test_fixture/issues/34>`_)
+* Contributors: Alejandro Hernández Cordero, Miguel Angel Gonzalez Rodriguez, Tomoya Fujita
 
-0.2.1 (2024-09-06)
+0.5.0 (2026-05-06)
 ------------------
-* Fix a warning when building on Ubuntu Noble. (`#26 <https://github.com/ros2/performance_test_fixture/issues/26>`_) (`#27 <https://github.com/ros2/performance_test_fixture/issues/27>`_)
-  In particular, gcc 13.2 was complaining that we were
-  accessing a pointer after a free.  And that was technically
-  true; the calls to DoNotOptimize(ptr) were after the
-  free.  Just move this before the free (when the ptr is still
-  valid) to remove the warning, but still ensure that we don't
-  optimize the pointer away.
-  (cherry picked from commit e406c3cf4a352ab3f89c43fcebe7503781be5905)
-  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
-* Contributors: mergify[bot]
+
+0.4.1 (2025-07-29)
+------------------
+* fix cmake deprecation (`#31 <https://github.com/ros2/performance_test_fixture/issues/31>`_)
+* Contributors: mosfet80
+
+0.4.0 (2025-04-24)
+------------------
+* Remove CODEOWNERS and mirror-rolling-to-main workflow. (`#28 <https://github.com/ros2/performance_test_fixture/issues/28>`_)
+* Contributors: Chris Lalancette
+
+0.3.1 (2024-06-17)
+------------------
+* Fix a warning when building on Ubuntu Noble. (`#26 <https://github.com/ros2/performance_test_fixture/issues/26>`_)
+* Contributors: Chris Lalancette
+
+0.3.0 (2024-04-26)
+------------------
 
 0.2.0 (2023-04-27)
 ------------------
